@@ -8,7 +8,7 @@ int main() {
 		printf("Input number of sings after point in pi:\n");
 		scanf_s("%d", &NumOfSigns);
 		if (NumOfSigns < 0) {
-			printf("You input invalid number. It sould be more the 0. Try again...");
+			printf("You input invalid number. It sould be more then 0. Try again...");
 		}
 		else {
 			long double pi = 0;
